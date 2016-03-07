@@ -1,0 +1,5 @@
+Simple xposed module to dump all nfc traffic to the android log.
+
+HowTo:
+Build the module, load it in the Xposed Installer and then run "adb logcat -s NFCSNIFF"
+
